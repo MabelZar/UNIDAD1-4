@@ -76,7 +76,7 @@ public class Libro {
 	public String toString() {
 		int disponibles =numEjemplares-numPrestados;
 		return "Libro[Titulo: " + titulo + ", Autor : " + autor + ", Ejemplares: " + numEjemplares + ", Prestados: "
-				+ numPrestados + "disponibles: "+disponibles+"]";
+				+ numPrestados + " disponibles: "+disponibles+"]";
 	}
 
 }

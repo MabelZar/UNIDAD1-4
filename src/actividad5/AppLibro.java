@@ -33,7 +33,7 @@ public class AppLibro {
 		System.out.println("prestamo de libro: ");
 		libro2.prestamo();
 		System.out.println(libro2);
-		
+		sc.close();
 		
 	}
 
